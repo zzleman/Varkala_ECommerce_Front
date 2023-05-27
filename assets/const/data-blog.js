@@ -1,0 +1,66 @@
+const products = [
+    {
+        id:1,
+        image: "post-1.jpeg",
+        title: "Pellentesque habitant morbi",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:2,
+        image: "post-2.jpeg",
+        title: "Best books about Fashion",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:3,
+        image: "post-3.jpeg",
+        title: "Best books about Fashion",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:4,
+        image: "post-4.jpeg",
+        title: "Autumn fashion tips and tricks",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:5,
+        image: "post-5.jpeg",
+        title: "Newest photo apps",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:6,
+        image: "post-6.jpeg",
+        title: "Best books about Photography",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:7,
+        image: "post-2.jpeg",
+        title: "Best books about Fashion",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:8,
+        image: "post-1.jpeg",
+        title: "Pellentesque habitant morbi",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+    {
+        id:9,
+        image: "post-3.jpeg",
+        title: "Best books about Fashion",
+        info: "FASHION AND STYLE",
+        date: "January 16, 2019",
+    },
+];
+

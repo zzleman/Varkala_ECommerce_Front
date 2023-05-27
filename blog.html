@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 571.195px; width: 100vw;">
-    <img class="parallax-slider" src="./assets/images/blog-parallax-girl.jpeg" style="transform: translate3d(0px, -35px, 0px); position: absolute; height: 641px; width: 100vw; max-width: none;">
+        <div class="parallax">
+            
     </div>
     <nav>
         <div class="icons">
@@ -59,7 +59,107 @@
         <h1>Blog</h1>
         <p>As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built party world. Of so am <br> <br> he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p>
     </div>
-    
+    <section>
+        <div class="post-container">
+            <!-- I create the inside of this dynamically in blog.js-->
+        </div>
+        <div class="posts-time">
+            <a href=""><span><i id="left"class="fa-solid fa-chevron-left"></i><span>Older posts</span></span></a>
+            <span>Newer posts <span><i id="right" class="fa-solid fa-chevron-right"></i></span></span>
+        </div>
+    </section>
+    <div class="services">
+        <div class="shipping">
+            <div class="service-img">
+                <img width="32" height="32" src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1"/>
+            </div>
+            <div class="service-info">
+                <p>Free shipping & return</p>
+                <p>Free Shipping over $300</p>
+            </div>
+        </div>
+            <div class="money">
+                <div class="service-img">
+                    <img width="32" height="32" src="https://img.icons8.com/wired/64/coins.png" alt="coins"/>
+                </div>
+                <div class="service-info">
+                    <p>Money back guarantee</p>
+                    <p>30 Days Money Back Guarantee</p>
+                </div>
+            </div>
+            <div class="price">
+                <div class="service-img">
+                    <img width="32" height="32" src="https://img.icons8.com/ios/50/discount--v1.png" alt="discount--v1"/>
+                </div>
+                <div class="service-info">
+                    <p>Best prices</p>
+                    <p>Always the best prices </p>
+                </div>
+            </div>
+            <div class="support">
+                <div class="service-img">
+                    <img width="32" height="32" src="https://img.icons8.com/external-others-maxicons/62/external-assistant-emergency-outline-others-maxicons.png" alt="external-assistant-emergency-outline-others-maxicons"/>
+                </div>
+                <div class="service-info">
+                    <p>020-800-456-747</p>
+                    <p>24/7 Available Support </p>
+                </div>
+            </div>
+    </div>
+    <footer>
+        <div class="general">
+            <div class="touch">
+                <p id="general-p">Be in touch</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br> At itaque temporibus.</p>
+                <div class="email">
+                    <input type="text" placeholder="Your Email Address">
+                    <img width="32" height="32" src="https://img.icons8.com/ios/50/filled-message.png" alt="filled-message"/>
+                </div>
+            </div>
+            <div class="choices">
+                <div class="alllists">
+                    <p id="general-p">Shop</p>
+                    <ul>
+                        <li><a href="">For Women</a></li>
+                        <li><a href="">For Men</a></li>
+                        <li><a href="">Stores</a></li>
+                        <li><a href="">Our Blog</a></li>
+                        <li><a href="">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="alllists">
+                    <p id="general-p">Company</p>
+                    <ul>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Our Products</a></li>
+                        <li><a href="">Checkouts</a></li>
+                    </ul>
+                </div>
+                <div class="alllists">
+                    <p id="general-p">Your account</p>
+                    <ul>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Our Products</a></li>
+                        <li><a href="">Checkouts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            <p>© 2020 Your company. All rights reserved.</p>
+            <ul>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href=""> Privacy & cookies</a></li>
+                <li><a href="">Accessibility</a></li>
+                <li><a href="">Customer Data Promise</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
-<script defer src="./assets/scripts/blog.js"></script>
+<script src="./assets/const/data-blog.js "></script>
+<script src="./assets/scripts/blog.js"></script>
 </html>

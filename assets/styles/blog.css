@@ -13,9 +13,21 @@ body{
     font-family: 'Vremena Grotesk';
                                                    
 }
-.parallax-slider{
-    object-fit: cover;
+.parallax{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 641px;
+    width: 100vw;
+    max-width: none;
+    transform: translate3d(0, 0, 0);
+    z-index: -1;
+    background-image: url(/assets/images/blog-parallax-girl.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 nav{
     display: flex;
     font-size: 14px;
@@ -96,6 +108,9 @@ border-color: black;
 .icon-right{
     margin-left: 120px;
 }
+.icon-right img:hover{
+    background-color    : #bcac76;
+}
 .icon-right img{
     margin-left: 15px;
 }
@@ -119,4 +134,152 @@ border-color: black;
 }
 .text-on-parallax a span{
     color: #868e96;
+}
+.post-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-flow: wrap;
+    margin-top: 300px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    white-space: wrap;
+}
+.posts img{
+    height: 200px;
+    width: 300px;
+}
+.posts > span{
+    padding-top: 25px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.alt-text{
+    font-size: 13px;
+}
+.info{
+    color: #bcac76;
+}
+.date{
+    color: #868e96;
+}
+.posts-time{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15% 0 15%;
+    color: #868e96;
+}
+.posts-time a{
+    text-decoration: none;
+    color: #868e96;
+}
+#left{
+    padding-right: 8px;
+    color: #868e96;
+}
+#right{
+    padding-left: 8px;
+    color: #868e96;
+}
+
+.services{
+    margin-top: 12%;
+    background-color: #f8f9fa;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+}
+.money,.price,.shipping,.support{
+    display: flex;
+}
+.service-info p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.service-info :first-child{
+    font-weight: bold;
+}
+.service-info :last-child{
+    color: #868e96;
+}
+.services .service-img{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.general{
+    display: flex;
+    
+}
+.touch{
+    margin-top: 7%;
+    margin-left: 14%;
+    margin-bottom: 10%;
+}
+.email{
+    margin-left: -38%;
+}
+.email input{
+    width: 390px;
+}
+#general-p{
+    white-space: nowrap;
+    font-size: 1rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.touch :nth-child(2){
+    font-size: .875rem;
+    color: #868e96;
+    margin-bottom: 30px;
+}
+.email img{
+    position: absolute;
+    margin: -10px 0 0 -50px;
+}
+.choices{
+    display: flex;
+}
+.alllists{
+    margin-top: 110px;
+    padding-left: 50%;
+}
+.alllists a{
+    text-decoration: none;
+    color:#868e96;
+}
+.alllists li{
+    list-style: none;
+    padding-top: 20px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.rights{
+    display: flex;
+    color: #868e96;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.rights ul{
+    display: flex;
+}
+.rights p{
+    font-size: 15px;
+}
+.rights a{
+    text-decoration: none;
+    color: #868e96;
+
+}
+.rights li{
+    font-size: 15px;
+    list-style: none;
+    padding-left: 20px;
 }
