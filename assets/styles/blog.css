@@ -1,0 +1,122 @@
+@import "https://fonts.fontstorage.com/import/vremenagrotesk.css";
+@import url(/node_modules/simple-parallax-js/dist/simpleParallax.js);
+                
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+input:focus {
+    outline:none;
+ }
+body{
+    font-family: 'Vremena Grotesk';
+                                                   
+}
+.parallax-slider{
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    font-size: 14px;
+    background-color: #e9ecef;
+    color: #343a40;
+    height: 55px;
+    font-weight: lighter;
+    align-items: center;
+    white-space: nowrap;
+}
+.number{
+    display: flex;
+    margin-left: 30px;
+}
+.number span{
+    padding: 5px 0 0 10px;
+}
+.options{
+    display: flex;
+    gap: 10px;
+    padding-left: 34%;
+}
+.language{
+    border-right: 1px solid lightgray;
+}
+.icons{
+    margin-left: 45px;
+    display: flex;
+    gap: 10px;
+}
+#text{
+    padding-left: 27%;
+}
+#usd{
+    padding-left: 10px;
+}
+header{
+    display: flex;
+    padding-top: 30px;
+}
+header ul{
+    display: flex;
+}
+.menus{
+    text-decoration: none;
+    padding-left: 10px;
+    color: gray;
+}
+header li{
+    list-style: none;
+}
+#varkala{
+    text-decoration: none;
+    padding: 3px 10px 0 50px;
+    color: black;
+}
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid lightgray;
+    margin-left: 27%;
+    width: 250px;
+    font-weight: 600;
+    padding: 0 0 5px 15px;
+    font-size: 16px;
+}
+input:hover{
+border-color: black;
+}
+.search-glass{
+    margin-left: -35px;
+}
+#glass{
+    font-size: 20px;
+    color:#989898 ;
+}
+
+.icon-right{
+    margin-left: 120px;
+}
+.icon-right img{
+    margin-left: 15px;
+}
+.text-on-parallax{
+    text-align: center;
+    padding-top: 10%;
+}
+.text-on-parallax > h1{
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.text-on-parallax :nth-child(3){
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.text-on-parallax a{
+    color: #bcac76;
+    text-decoration: none;
+    background-color: transparent;
+}
+.text-on-parallax a span{
+    color: #868e96;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/vremena-grotesk');
+@import "https://fonts.fontstorage.com/import/vremenagrotesk.css";
                 
 *{
     box-sizing: border-box;
@@ -6,17 +6,25 @@
     padding: 0;
 }
 body{
-    font-family: 'Vremena Grotesk', sans-serif;                                        
+    font-family: 'Vremena Grotesk';
+                                                   
 }
 nav{
     display: flex;
+    font-size: 14px;
     background-color: #e9ecef;
-    height: 50px;
+    color: #343a40;
+    height: 55px;
+    font-weight: lighter;
     align-items: center;
+    white-space: nowrap;
 }
 .number{
     display: flex;
     margin-left: 30px;
+}
+.number span{
+    padding: 5px 0 0 10px;
 }
 .options{
     display: flex;
@@ -24,13 +32,129 @@ nav{
     padding-left: 32%;
 }
 .language{
-    border-right: 2px solid gray;
+    border-right: 1px solid lightgray;
 }
 .icons{
-    margin-left: 40px;
+    margin-left: 45px;
     display: flex;
     gap: 10px;
 }
 #text{
-    padding-left: 26%;
+    padding-left: 25%;
+}
+#usd{
+    padding-left: 10px;
+}
+
+/* The Carousel */
+.slideshow-container {
+    position: relative;
+    height: 500px;
+    display: flex;
+  }
+  .heading{
+    display: flex;
+  }
+  .heading ul{
+    display: flex;
+    position: absolute;
+  }
+  .heading li{
+    list-style: none;
+  }
+  .heading a{
+    text-decoration: none;
+    color: #00000080;
+  }
+  .searching{
+    margin-left: 40%;
+  }
+  .searching i{
+    position: absolute;
+    padding-left: 30px;
+    padding-top: -40px;
+  }
+  .searching input{
+    border: none;
+    border-bottom: 2px solid lightgray;
+  }
+  .right-content{
+    display: flex;
+    margin-left: 40%;
+  }
+  .right-content i{
+    font-size: 28px;
+    padding-left: 30px;
+  }
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  .mySlides :first-child{
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .mySlides :nth-child(2){
+    font-size: 50px;
+  }
+  .mySlides :nth-child(3){
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bolder;
+  }
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: blueviolet;
+  }
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color:white;
+  }
+
+
+/* element.style {
+  width: 800px;
+  height: 800px;
+  max-width: 100%;
+  left: -200px;
+  top: -200px;
+  color: #e0d4ab;
+}
+.svg-blob-fill-current {
+  --layer1: currentColor;
+}
+.svg-blob{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  fill: currentColor;
+}
+svg{
+  overflow: hidden;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+} */
+
+
+svg{
+  position: absolute;
+  margin-top: -98px;
+  margin-left: -240px;
+  rotate: 220deg;
+  width: 700px;
+  height: 700px;
 }
