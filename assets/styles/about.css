@@ -266,3 +266,52 @@ blockquote :last-child{
     padding-top: 30px;
     color: #989898;
 }
+
+.team{
+    padding-top: 150px;
+    padding-left: 20%;
+}
+.people span{
+    color: #bcac76;
+    padding-right: 15px;
+    font-weight: bolder;
+}
+.people h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 72px;
+}
+.people p{
+    color: #989898;
+}
+.workers-1,.workers-2{
+    display: flex;
+    gap: 80px;
+}
+.workers{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.worker-info{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.worker-info img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+.worker-info p{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.worker-info span{
+    font-size: 14px;
+    color: #989898;
+}
+#line-t{
+    border-top: 1px solid black;
+    margin-left: -170px;
+    width: 90px;
+    margin-top: 10px;
+}
