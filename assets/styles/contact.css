@@ -7,6 +7,10 @@
 input:focus {
     outline:none;
  }
+ textarea:focus{
+    overflow: hidden;
+    outline:none;
+ }
 body{
     font-family: 'Vremena Grotesk';
                                                    
@@ -15,12 +19,12 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 641px;
+    height: 499.2px;
     width: 100vw;
     max-width: none;
     transform: translate3d(0, 0, 0);
     z-index: -1;
-    background-image: url(/assets/images/blog-parallax-girl.jpeg);
+    background-image: url(/assets/images/about-flower.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,18 +83,17 @@ header li{
 }
 #varkala{
     text-decoration: none;
-    padding: 3px 10px 0 50px;
+    padding: 3px 50px 0 40px;
     color: black;
+}
+header input{
+    margin-left: 25%;
 }
 input{
     border: none;
     background-color: transparent;
     border-bottom: 1px solid lightgray;
-    margin-left: 27%;
     width: 250px;
-    font-weight: 600;
-    padding: 0 0 5px 15px;
-    font-size: 16px;
 }
 input:hover{
 border-color: black;
@@ -113,7 +116,6 @@ border-color: black;
     margin-left: 15px;
 }
 
-/* The Text Area On the Image */
 .text-on-parallax{
     text-align: center;
     padding-top: 10%;
@@ -135,60 +137,136 @@ border-color: black;
 .text-on-parallax a span{
     color: #868e96;
 }
-.post-container{
-    display: flex;
+
+
+.all-contact{
+    margin-top: 18%;
     justify-content: center;
-    gap: 90px;
-    flex-flow: wrap;
-    margin-top: 300px;
+    display: flex;
+    padding-left: 80px;
+    gap: 140px;
 }
-.posts{
+.all-contact h4{
+    font-size: 1.5rem;
+}
+.contact-inf{
+    color:#868e96;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.contact-inf p{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#for-p{
+    padding-bottom: 25px;
+}
+.all-contact span{
+    font-weight: bolder;
+}
+.map-content{
+    display: flex;
+    margin-top: 10%;
+}
+ #map{
+    height: 751px;
+    width: 50%;
+    object-fit: cover;
+ }
+ #map iframe{
+    height: 751px;
+ }
+ .text-map{
+    height: 751px;
+    width: 50%;
+    background-color:#dee0e0;
+ }
+ .text-map h1{
+    padding-top: 90px;
+    padding-left: 50px;
+    font-size: 72px;
+    color: #868e96;
+ }
+ .city{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    white-space: nowrap;
+    border-bottom: 1px solid lightgray;
+    width: 90%;
+ }
+ .city-title p{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #212529;
+ }
+ .city-adress p{
+    color: #212529;
+    font-size: 14px;
+ }
+ .email-left h1{
+    padding-left: 11%;
+    padding-top: 100px;
+    font-size: 5.5rem;
+ }
+ .mail-icons{
+    padding-top: 30px;
+    padding-left: 11%;
+ }
+ .mail-icons i{
+    font-size: 1.75rem;
+    padding-right: 30px;
+ }
+ textarea{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 600px;
+    font-weight: 600;
+ }
+ .email-right{
     display: flex;
     flex-direction: column;
-    white-space: wrap;
-}
-.posts img{
-    cursor: pointer;
-    height: 200px;
-    width: 300px;
-}
-.posts > span{
-    padding-top: 25px;
-}
-.title{
-    font-weight: bold;
-    font-size: 20px;
-}
-.alt-text{
-    font-size: 13px;
-}
-.info{
-    color: #bcac76;
-}
-.date{
-    color: #868e96;
-}
-.posts-time{
+    margin-top: -15%;
+    margin-left: 50%;
+ }
+ .email-right label{
+    font-weight: bolder;
+ }
+ .mail-input{
     display: flex;
-    justify-content: space-between;
-    padding: 5% 15% 0 15%;
-    color: #868e96;
-}
-.posts-time a{
-    text-decoration: none;
-    color: #868e96;
-}
-#left{
-    padding-right: 8px;
-    color: #868e96;
-}
-#right{
-    padding-left: 8px;
-    color: #868e96;
+    flex-direction: column;
+ }
+ .mail-input input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+ }
+ .name-surname{
+    display: flex;
+    margin-bottom: 30px;
+ }
+ .message-us{
+    display: flex;
+    flex-direction: column;
+ }
+.email-right button{
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    color: #bcac76;
+    border: 1px solid #bcac76;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 30px;
 }
 
+
 .services{
-    margin-top: 12%;
+    margin-top: 8%;
     background-color: #f8f9fa;
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -222,11 +300,11 @@ border-color: black;
     margin-left: 14%;
     margin-bottom: 10%;
 }
-.email{
-    margin-left: -38%;
-}
 .email input{
+    padding-bottom: 10px;
     width: 390px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 #general-p{
     white-space: nowrap;
