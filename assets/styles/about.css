@@ -199,3 +199,37 @@ border-color: black;
     font-size: 16px;
     color: #989898;
 }
+
+.varkala-milestone{
+    margin-top: 100px;
+    display: flex;
+    padding-top: 150px;
+    padding-left: 80px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.years{
+    padding-left: 150px;
+
+}
+.up-years,.down-years{
+    display: flex;
+    gap: 60px;
+}
+.milestones h4{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.milestones p{
+    color: #989898;
+    font-weight: 400;
+    font-size: 20px;
+}
+.number-year p{
+    padding-bottom: 40px;
+    color: #989898;
+}
+.number-year h4{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
