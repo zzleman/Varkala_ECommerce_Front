@@ -69,6 +69,8 @@ nav{
 header{
     display: flex;
     padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 }
 header ul{
     display: flex;
@@ -232,4 +234,35 @@ border-color: black;
 .number-year h4{
     font-size: 24px;
     padding-bottom: 15px;
+}
+
+.frankie{
+    display: flex;
+    margin-top: 100px;
+}
+.fr-left img{
+    height: 374px;
+    width: 374px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.fr-right{
+    margin-left: 100px;
+}
+.fr-right i{
+    font-size: 50px;
+}
+blockquote :first-child{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+blockquote span{
+    font-size: 20px;
+    color: #bcac76;
+    font-weight: bold;
+}
+blockquote :last-child{
+    padding-top: 30px;
+    color: #989898;
 }
