@@ -1,4 +1,3 @@
-
 const postContainer = document.querySelector(".post-container")
 function generateProduct(product){
     const posts = document.createElement("div");
