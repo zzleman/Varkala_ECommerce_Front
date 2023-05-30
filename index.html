@@ -157,30 +157,41 @@
             </ul>
         </div>
     </header>
-    <div class="slideshow-container">
+    <div class="slideshow-container" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd()" onmousedown="dragStart(event)" onmousemove="dragMove(event)" onmouseup="dragEnd()">
         <img id="main-bg" src="./assets/images/greatest-bg.jpeg" width="50%" alt="">
 
         <div class="mySlides fade">
+            <div class="fade-text">
+                <span>TIME IS ALMOST UP</span>
+                <p>Design  clocks  <br> on sale </p>
+                <a href=""><button>START SHOPPING</button></a>
+            </div>
           <img  id="basic" src="./assets/images/clock-transparent.png" style="width:35%">
           <img id="blob" src="./assets/images/blob-1.png" alt="" style="width:50%">
-          <div class="text">Caption Text</div>
         </div>
         
         <div class="mySlides fade">
+            <div class="fade-text">
+                <span>OUR ALL-TIME FAVOURITES</span>
+                <p>Black & <br> White</p>
+                <p>The bedding was hardly able to cover it and seemed ready to <br><br> slide off any moment. His many legs, pit</p>
+                <a href=""><button>DISCOVER MORE</button></a>
+            </div>
           <img id="basic" src="./assets/images/white-bg-chair.png" style="width:35%">
           <img id="blob" src="./assets/images/blob-2.png" alt="" style="width:50%">
-          <div class="text">Caption Two</div>
         </div>
         
         <div class="mySlides fade">
+            <div class="fade-text">
+                <span>OUR ALL-TIME FAVOURITES</span>
+                <p>Boxxez</p>
+                <p>The bedding was hardly able to cover it and seemed ready to <br><br> slide off any moment. His many legs, pit</p>
+                <a href=""><button>DISCOVER MORE</button></a>
+            </div>
           <img id="basic" src="./assets/images/all-boxes.png" style="width:35%">
           <img id="blob" src="./assets/images/blob-3.png" alt="" style="width:50%">
-          <div class="text">Caption Three</div>
         </div>
-        
-
-        
-        </div>
+     </div>
         <br>
         
         <div style="text-align:center">
@@ -188,8 +199,12 @@
           <span class="dot" onclick="currentSlide(2)"></span> 
           <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
-        
-      
+
+        <div class="top-choices">
+            <p>TOP CHOICES</p>  
+            <p>Popular this week</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+        </div>
 </body>
 <script src="./assets/scripts/dropdown.js"></script>
 <script  src="./assets/scripts/index.js"></script>

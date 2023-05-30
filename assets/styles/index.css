@@ -180,6 +180,27 @@ border-color: black;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+.fade-text{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -30px;
+  font-weight: lighter;
+}
+.fade-text :nth-child(2){
+  font-size: 72px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.fade-text button{
+  background-color: transparent;
+  border: 1px solid #bcac76;
+  color: #bcac76;
+  font-size: 13.8px;
+  margin-top: 70px;
+  font-weight: 900;
+  height: 40px;
+  width: 200px;
+}
 #blob{
   margin-left: 700px;
 }
@@ -201,3 +222,4 @@ border-color: black;
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
