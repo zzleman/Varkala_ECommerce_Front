@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Norwegg Chair",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./assets/images/green-chair.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Book",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./assets/images/book-image.jpeg"  } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Another chair",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./assets/images/white-chair.jpeg"  } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Your new chair",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "./assets/images/red-chair.jpeg"  } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Clock",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "./assets/images/blue-clock.jpeg"  } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Clock",
+        "price": 32.99,
+        "image": { "fields": { "file": { "url": "./assets/images/normal-clock.jpeg"  } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Accessory box",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "./assets/images/yellow-basket.jpeg"  } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Beige",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./assets/images/gray-basket.jpeg"  } } }
+      }
+    }
+  ]
+}

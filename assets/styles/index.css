@@ -1,16 +1,25 @@
 @import "https://fonts.fontstorage.com/import/vremenagrotesk.css";
-                
+@import url(./dropdown.css);       
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+input:focus {
+    outline:none;
+ }
+ textarea:focus{
+    overflow: hidden;
+    outline:none;
+ }
 body{
     font-family: 'Vremena Grotesk';
                                                    
 }
+/* All About the Nav  */
 nav{
     display: flex;
+    position: relative;
     font-size: 14px;
     background-color: #e9ecef;
     color: #343a40;
@@ -29,7 +38,7 @@ nav{
 .options{
     display: flex;
     gap: 10px;
-    padding-left: 32%;
+    padding-left: 34%;
 }
 .language{
     border-right: 1px solid lightgray;
@@ -40,121 +49,155 @@ nav{
     gap: 10px;
 }
 #text{
-    padding-left: 25%;
+    padding-left: 27%;
 }
 #usd{
     padding-left: 10px;
 }
-
-/* The Carousel */
-.slideshow-container {
-    position: relative;
-    height: 500px;
+header{
     display: flex;
-  }
-  .heading{
+    padding-top: 30px;
+}
+header ul{
     display: flex;
-  }
-  .heading ul{
-    display: flex;
-    position: absolute;
-  }
-  .heading li{
-    list-style: none;
-  }
-  .heading a{
+}
+.menus{
     text-decoration: none;
-    color: #00000080;
-  }
-  .searching{
-    margin-left: 40%;
-  }
-  .searching i{
-    position: absolute;
-    padding-left: 30px;
-    padding-top: -40px;
-  }
-  .searching input{
+    padding-left: 10px;
+    color: gray;
+}
+header li{
+    list-style: none;
+}
+#varkala{
+    text-decoration: none;
+    padding: 3px 50px 0 40px;
+    color: black;
+}
+header input{
+    margin-left: 25%;
+}
+input{
     border: none;
-    border-bottom: 2px solid lightgray;
-  }
-  .right-content{
-    display: flex;
-    margin-left: 40%;
-  }
-  .right-content i{
-    font-size: 28px;
-    padding-left: 30px;
-  }
-  .mySlides {
-    display: none;
-    padding: 80px;
-    text-align: center;
-  }
-  .mySlides :first-child{
+    background-color: transparent;
+    border-bottom: 1px solid lightgray;
+    width: 250px;
+}
+input:hover{
+border-color: black;
+}
+.search-glass{
+    margin-left: -35px;
+}
+#glass{
     font-size: 20px;
-    padding-bottom: 50px;
-  }
-  .mySlides :nth-child(2){
-    font-size: 50px;
-  }
-  .mySlides :nth-child(3){
-    font-size: 20px;
-    padding-top: 50px;
-    font-weight: bolder;
-  }
-  .dot-container {
-      text-align: center;
-      padding: 20px;
-      background: blueviolet;
-  }
-  .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .active, .dot:hover {
-    background-color:white;
-  }
+    color:#989898 ;
+}
+
+.icon-right{
+    margin-left: 120px;
+}
+.icon-right img:hover{
+    background-color    : #bcac76;
+}
+.icon-right img{
+    margin-left: 15px;
+}
 
 
-/* element.style {
-  width: 800px;
-  height: 800px;
-  max-width: 100%;
-  left: -200px;
-  top: -200px;
-  color: #e0d4ab;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-.svg-blob-fill-current {
-  --layer1: currentColor;
-}
-.svg-blob{
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
   position: absolute;
-  width: 600px;
-  height: 600px;
-  fill: currentColor;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-svg{
-  overflow: hidden;
-  vertical-align: middle;
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-svg:not(:root) {
-  overflow-clip-margin: content-box;
-  overflow: hidden;
-} */
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
-svg{
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
   position: absolute;
-  margin-top: -98px;
-  margin-left: -240px;
-  rotate: 220deg;
-  width: 700px;
-  height: 700px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#blob{
+  margin-left: 700px;
+}
+#basic{
+  margin-left: 670px;
+  position: absolute;
+  margin-top: 20px;
+}
+#main-bg{
+  position: absolute;
+  margin-left: -220px;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }

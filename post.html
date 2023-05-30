@@ -152,25 +152,47 @@
             <ul>
                 <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a></li>
                 <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/></a></li>
-                <li><a href="#"><img width="27" height="27" src="https://img.icons8.com/dotty/80/shopping-bag.png" alt="shopping-bag"/></a></li>
+                <div class="cart-btn">
+                    <li><a href="#"><img width="27" height="27" src="https://img.icons8.com/dotty/80/shopping-bag.png" alt="shopping-bag"/></a></li>
+                    <div class="cart-items">0</div>
+                </div>
                 <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/></a></li>
             </ul>
         </div>
     </header>
-    <!-- Add the following HTML markup for the shopping cart -->
-<div id="cart-overlay">
-    <div id="cart">
-      <div id="cart-items"></div>
-      <div id="cart-summary">
-        <h4>Subtotal: <span id="subtotal">$0.00</span></h4>
-        <button id="view-cart-btn">View Cart</button>
-        <button id="checkout-btn">Checkout</button>
-      </div>
+<!-- products -->
+<section class="products">
+    <div class="section-title">
+        <h2>our products</h2>
     </div>
-</div>
-<div id="product-list">
-    
-</div>
+    <div class="products-center">
+
+    </div>
+</section>
+         <!-- cart -->
+         <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>your cart</h2>
+                <div class="cart-content">
+                    <!-- cart item -->
+
+                    <!-- end of cart item -->
+                </div>
+                <div class="cart-footer">
+                    <h3>subtotal : $ <span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+                </div>
+            </div>
+         </div>
+         <!-- end cart -->
+
+         
+
+
+<script src="./assets/const/data-post.js"></script>
   <script src="./assets/scripts/dropdown.js"></script>
   <script src="./assets/scripts/post.js"></script>
 </body>
