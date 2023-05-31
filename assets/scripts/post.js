@@ -96,7 +96,7 @@ class UI {
       <div>
         <h4>${item.title}</h4>
         <h5>$${item.price}</h5>
-        <span class="remove-item" data-id=${item.id}>remove</span>
+        <span class="remove-item" data-id=${item.id}>X</span>
       </div>
       <div>
         <i class="fas fa-chevron-up" data-id=${item.id}></i>
