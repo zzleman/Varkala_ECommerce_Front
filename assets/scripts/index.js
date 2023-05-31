@@ -158,3 +158,5 @@ function startCountdown() {
 
 // Call the startCountdown function when the page is loaded
 window.addEventListener("load", startCountdown);
+
+
