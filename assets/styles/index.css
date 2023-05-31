@@ -213,6 +213,180 @@ border-color: black;
   position: absolute;
   margin-left: -220px;
 }
+.top-choices{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 180px;
+}
+.top-choices :first-child{
+  color:#989898;
+  font-weight: bolder;
+}
+.top-choices :nth-child(2){
+  font-size: 26px;
+  font-weight: bolder;
+}
+.top-choices :last-child{
+  font-size: 20px;
+  color: #989898;
+}
+.up-sized-img{
+  display: flex;
+  margin-left: 180px;
+  margin-top: 100px;
+}
+
+.sized-book img{
+  height: 360px;
+}
+.sized-book-text{
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  white-space: nowrap;
+}
+.sized-book-text button{
+  width: 80px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+}
+#the-id{
+  padding-right: 10px;
+}
+.sized-green{
+  display: flex;
+  margin-left: 180px;
+}
+.sized-green img{
+  height: 550px;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.sized-green-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: -60px;
+  padding-top: 80px;
+  white-space: nowrap;
+}
+.sized-green-text button{
+  width: 80px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+}
+.mid-sized-img{
+  display: flex;
+  gap: 100px;
+}
+.sized-blue{
+  display: flex;
+  margin-left: 240px;
+  margin-top: 150px;
+}
+.sized-blue img{
+  height: 550px;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.sized-blue-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: -60px;
+  padding-top: 80px;
+  white-space: nowrap;
+}
+.sized-blue-text button{
+  width: 80px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+}
+.sized-yellow{
+  margin-top: 250px;
+}
+.sized-yellow img{
+  height: 340px;
+}
+.sized-yellow-text{
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  white-space: nowrap;
+}
+.sized-yellow-text button{
+  width: 80px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+}
+.down-sized-img{
+  display: flex;
+  margin-left: 180px;
+  margin-top: 100px;
+  gap: 200px;
+}
+.sized-rul img{
+  height: 240px;
+}
+.sized-rul{
+  margin-top: 30px;
+}
+.sized-rul-text{
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  white-space: nowrap;
+}
+.sized-rul-text button{
+  width: 80px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+}
+.sized-red img{
+  height: 634px;
+  width: 634px;
+}
+.sized-red-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: -60px;
+  padding-top: 80px;
+  white-space: nowrap;
+}
+.sized-red-text button{
+  width: 80px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+}
+.deal{
+ background-color: #ebf7ff;
+}
+.countdown {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
