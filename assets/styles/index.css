@@ -651,6 +651,9 @@ border-color: black;
     width: 100%;
     margin-top: 260px;
   }
+  #blob{
+    display: none;
+  }
   .dot-div{
     margin-top: 550px; 
 
@@ -785,7 +788,10 @@ border-color: black;
   }
   .cart {
     right: 500px;
-    width: 300px;
+    width: max-content;
     height: max-content;
+  }
+  .remove-item{
+    margin-left: 135px;
   }
 }

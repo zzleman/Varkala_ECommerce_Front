@@ -34,7 +34,7 @@
     </nav>
     <header>
         <a id="varkala" href="">Varkala</a>
-        <ul>
+        <ul class="main-ul">
             <li class="dropdown">
                 <a class="menus" href="#">Home <i class="fa-solid fa-chevron-down" style="color: #000000; padding-right: 5px;"></i></a>
                 <ul class="dropdown-menu-home">
@@ -153,14 +153,18 @@
         </div>
         <div class="icon-right">
             <ul>
-                <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a></li>
-                <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/></a></li>
-                <div class="cart-btn">
-                    <li><a href="#"><img width="27" height="27" src="https://img.icons8.com/dotty/80/shopping-bag.png" alt="shopping-bag"/></a></li>
-                    <div class="cart-items">0</div>
+                <div class="three-icon">
+                    <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a></li>
+                    <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/></a></li>
+                    <div class="cart-btn">
+                        <li><a href="#"><img width="27" height="27" src="https://img.icons8.com/dotty/80/shopping-bag.png" alt="shopping-bag"/></a></li>
+                        <div class="cart-items">0</div>
+                    </div>
                 </div>
-                <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/></a></li>
             </ul>
+        </div>
+        <div class="ham-menu">
+            <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/></a></li>
         </div>
     </header>
     <div class="text-on-parallax">
@@ -199,10 +203,10 @@
         <div class="text-map">
             <h1>Our stores</h1>
             <div class="city">
-                <div class="city-title">
+                <div id="nyc" class="city-title">
                     <p>New York</p>
                 </div>
-                <div class="city-adress">
+                <div id="nyc-a" class="city-adress">
                     <p>13/25 New</p>
                     <p>Avenue, New</p>
                     <p>Heaven, 45Y 73J</p>
@@ -216,10 +220,10 @@
                 </div>
             </div>
             <div class="city">
-                <div class="city-title">
+                <div id="london" class="city-title">
                     <p>London</p>
                 </div>
-                <div class="city-adress">
+                <div id="london-a" class="city-adress">
                     <p>13/25 New</p>
                     <p>Avenue, New</p>
                     <p>Heaven, 45Y 73J</p>
@@ -233,10 +237,10 @@
                 </div>
             </div>
             <div class="city">
-                <div class="city-title">
+                <div id="paris" class="city-title">
                     <p>Paris</p>
                 </div>
-                <div class="city-adress">
+                <div id="paris-a" class="city-adress">
                     <p>13/25 New</p>
                     <p>Avenue, New</p>
                     <p>Heaven, 45Y 73J</p>
@@ -250,10 +254,10 @@
                 </div>
             </div>
             <div class="city">
-                <div class="city-title">
+                <div id="tokyo" class="city-title">
                     <p>Tokyo</p>
                 </div>
-                <div class="city-adress">
+                <div id="tokyo-a" class="city-adress">
                     <p>13/25 New</p>
                     <p>Avenue, New</p>
                     <p>Heaven, 45Y 73J</p>
@@ -271,6 +275,7 @@
     <div class="send-email">
         <div class="email-left">
             <h1>Get in <br> touch</h1>
+            <h2> Get in touch</h2>
             <div class="mail-icons">
                 <i class="fa-brands fa-facebook-f" style="color: #bcac76;"></i>
                 <i class="fa-brands fa-twitter" style="color: #bcac76;"></i>
@@ -299,12 +304,6 @@
             <button>SEND MESSAGE</button>
         </div>
     </div>
-     <!-- products -->
-<section class="products">
-    <div class="products-center">
-
-    </div>
-</section>
          <!-- cart -->
          <div class="cart-overlay">
             <div class="cart">

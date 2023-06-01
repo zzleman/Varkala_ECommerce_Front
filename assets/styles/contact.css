@@ -30,6 +30,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.5;
 }
 /* All About the Nav  */
 nav{
@@ -42,6 +43,9 @@ nav{
     align-items: center;
     white-space: nowrap;
 }
+.three-icon{
+    display: flex;
+  }
 .number{
     display: flex;
     margin-left: 30px;
@@ -229,6 +233,9 @@ border-color: black;
     width: 600px;
     font-weight: 600;
  }
+ .email-left h2{
+    display: none;
+ }
  .email-right{
     display: flex;
     flex-direction: column;
@@ -364,3 +371,157 @@ border-color: black;
     list-style: none;
     padding-left: 20px;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    nav {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    header input{
+      display: none;
+    }
+    .search-glass{
+      display: none;
+    }
+  
+    .number,.options,.icons {
+      display: none;
+    }
+  
+    #text {
+      margin-left: -320px;
+      margin-bottom: 10px;
+    }
+    .main-ul{
+      display: none;
+    }
+    #varkala{
+      margin-left: -30px;
+    }
+    header{
+      justify-content: space-between;
+    }
+    .ham-menu{
+      margin-right: 20px;
+    }
+    .three-icon{
+      margin-left: -150px;
+    }
+    .services{
+      flex-direction: column;
+      margin-left: 5px;
+      width:380px;
+      padding-left: 30px;
+    }
+    .touch{
+      margin-left: 10px;
+    }
+    .email input{
+      width: 370px;
+    }
+    .choices{
+      margin-top: 100px;
+      margin-left: -410px;
+      flex-direction: column;
+    }
+    .cart {
+      right: 500px;
+      width: max-content;
+      height: max-content;
+    }
+    .remove-item{
+      margin-left: 135px;
+    }
+    .text-on-parallax{
+        margin-top: 140px;
+    }
+    .text-on-parallax h1{
+        font-size: 23px;
+    }
+    .all-contact{
+        flex-direction: column;
+        margin-top: 220px;
+        justify-content: center;
+        text-align: center;
+    }
+    .map-content{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    #map iframe{
+        width: 100vw;
+        height: 500px;
+    }
+    .city-title{
+        margin-left: 100px;
+    }
+    #nyc{
+        margin-left: 80px;
+    }
+    #london{
+        margin-left: 80px;
+    }
+    #london-a{
+        margin-left: 25px;
+    }
+    #paris{
+        margin-left: 70px;
+    }
+    #paris-a{
+        margin-left: 55px;
+    }
+    #tokyo{
+        margin-left:60px;
+    }
+    #tokyo-a{
+        margin-left: 50px;
+    }
+    .city-code{
+        margin-top: 30px;
+        margin-left: -340px;
+    }
+    .city-mail{
+        margin-top: 40px; 
+    }
+    .text-map{
+        width:100vw;
+        margin-top: -250px;
+    }
+    .text-map h1{
+        margin-left: -15px;
+        font-size: 40px;
+    }
+    .city{
+        margin-left: -30px;
+    }
+    .email-left h1{
+        display: none;
+    }
+    .email-left h2{
+        display: block;
+        font-size: 50px;
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    .email-right{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .name-surname{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .name-surname input{
+        width: 100vw ;
+    }
+    .mail-input input{
+        width: 100vw;
+    }
+    .message-us textarea{
+        width: 100vw;
+    }
+
+  }
