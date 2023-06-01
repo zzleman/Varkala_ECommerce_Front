@@ -70,6 +70,9 @@ header ul{
 header li{
     list-style: none;
 }
+.three-icon{
+  display: flex;
+}
 #varkala{
     text-decoration: none;
     padding: 3px 50px 0 40px;
@@ -113,32 +116,7 @@ border-color: black;
   margin: auto;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 /* Caption text */
 .text {
@@ -151,14 +129,6 @@ border-color: black;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -209,6 +179,7 @@ border-color: black;
   margin-left: 670px;
   position: absolute;
   margin-top: 20px;
+  width:35%
 }
 #main-bg{
   position: absolute;
@@ -486,4 +457,335 @@ border-color: black;
 }
 .filters li{
   list-style: none;
+}
+
+.summer-sales{
+  display: flex;
+  margin-left: 150px;
+  background-color: #eae0bd;
+  width: 82%;
+  height: 430.45px;
+}
+.sales-img img{
+  height: 430px;
+  position: absolute;
+  margin-top: -50px;
+}
+.blob-gold img{
+  width: 53%;
+  margin-top: -22px;
+}
+.sales-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sales-content h1{
+  font-size: 72px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+.sales-content p{
+  font-size: 32px;
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+.sales-content button{
+  height: 40px;
+  width: 200px;
+  margin-left: 30%;
+  background-color: transparent;
+  border: 1px solid black;
+  font-weight: bolder;
+}
+#sale-spn{
+  padding-right: 10px;
+}
+
+.services{
+  margin-top: 8%;
+  background-color: #f8f9fa;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  gap: 70px;
+  display: flex;
+  justify-content: center;
+}
+.money,.price,.shipping,.support{
+  display: flex;
+}
+.service-info p{
+  padding-top: 10px;
+  font-size: 14px;
+}
+.service-info :first-child{
+  font-weight: bold;
+}
+.service-info :last-child{
+  color: #868e96;
+}
+.services .service-img{
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.general{
+  display: flex;
+  
+}
+.touch{
+  margin-top: 7%;
+  margin-left: 14%;
+  margin-bottom: 10%;
+}
+.email input{
+  padding-bottom: 10px;
+  width: 390px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+#general-p{
+  white-space: nowrap;
+  font-size: 1rem;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.touch :nth-child(2){
+  font-size: .875rem;
+  color: #868e96;
+  margin-bottom: 30px;
+}
+.email img{
+  position: absolute;
+  margin: -10px 0 0 -50px;
+}
+.choices{
+  display: flex;
+}
+.alllists{
+  margin-top: 110px;
+  padding-left: 50%;
+}
+.alllists a{
+  text-decoration: none;
+  color:#868e96;
+}
+.alllists li{
+  list-style: none;
+  padding-top: 20px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.rights{
+  display: flex;
+  color: #868e96;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.rights ul{
+  display: flex;
+}
+.rights p{
+  font-size: 15px;
+}
+.rights a{
+  text-decoration: none;
+  color: #868e96;
+
+}
+.rights li{
+  font-size: 15px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Adjust the styles for smaller screens */
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  header input{
+    display: none;
+  }
+  .search-glass{
+    display: none;
+  }
+
+  .number,.options,.icons {
+    display: none;
+  }
+
+  #text {
+    margin-left: -320px;
+    margin-bottom: 10px;
+  }
+  .main-ul{
+    display: none;
+  }
+  #varkala{
+    margin-left: -30px;
+  }
+  header{
+    justify-content: space-between;
+  }
+  .ham-menu{
+    margin-right: 20px;
+  }
+  .three-icon{
+    margin-left: -150px
+  }
+  .fade-text{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .fade-text :nth-child(2){
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+  #basic{
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 260px;
+  }
+  .dot-div{
+    margin-top: 550px; 
+
+  }
+  .top-choices{
+    margin-left: -170px;
+  }
+  .up-sized-img{
+    margin-left: 17px;
+    flex-direction: column;
+  }
+  .sized-book img{
+    height: 340px;
+  }
+  .sized-green img{
+    margin-left: -100px;
+    margin-top: 40px;
+    height: 250px;
+  }
+  .sized-green-text{
+    margin-left: -180px;
+  }
+  .mid-sized-img{
+    flex-direction: column;
+  }
+  .sized-blue img{
+    margin-left: -110px;
+    height: 250px;
+  }
+  .sized-blue-text{
+    margin-left: -220px;
+  }
+  .sized-yellow img{
+    height: 340px;
+    margin-top: -220px;
+    margin-left: 30px;
+  }
+  .sized-yellow-text{
+    margin-left: 30px;
+  }
+  .down-sized-img{
+    flex-direction: column;
+  }
+  .sized-rul img{
+    height: 340px;
+    margin-left: -160px;
+  }
+  .sized-rul-text{
+    margin-left: -160px;
+  }
+  .sized-red{
+    margin-top: -120px;
+    margin-left: -60px;
+  }
+  .sized-red img{
+    height: 250px;
+    width: 250px;
+  }
+  .sized-red-text{
+    margin-left: -80px;
+  }
+  .deal{
+    margin-top: 300px;
+    margin-left: -150px;
+    height: max-content;
+  }
+  .countdown{
+    margin-left: 10px;
+    width: 90%;
+    height: 200px;
+  }
+  .days,.hours{
+    margin-top: -100px;
+  }
+  .minutes{
+    margin-top: 60px;
+    margin-left: -195px;
+  }
+  .seconds{
+    margin-top: 60px;
+  }
+  .deal-right img{
+    margin-top: 380px;
+    margin-left: -350px;
+  }
+  .arrivals{
+    margin-left: -148px;
+  }
+  .filters{
+    margin-left: -150px;
+    font-size: 14px;
+  }
+  .summer-sales{
+    margin-left: 35px;
+  }
+  .sales-content h1{
+    margin-left: -35px;
+    font-size: 38px;
+    white-space: nowrap;
+  }
+  .sales-content p{
+    font-size: 27px;
+    margin-left: 30px;
+  }
+  .sales-content button{
+    margin-left:60px;
+  }
+  .sales-img img{
+    display: none;
+  }
+
+  .blob-gold img{
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 300%;
+  }
+  .services{
+    flex-direction: column;
+    margin-left: 5px;
+    width:380px;
+    padding-left: 30px;
+  }
+  .touch{
+    margin-left: 10px;
+  }
+  .email input{
+    width: 370px;
+  }
+  .choices{
+    margin-top: 100px;
+    margin-left: -500px;
+  }
+  .cart {
+    right: 500px;
+    width: 300px;
+    height: max-content;
+  }
 }

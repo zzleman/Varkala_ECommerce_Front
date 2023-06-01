@@ -42,6 +42,7 @@ class UI {
               <i class="fas fa-shopping-cart"></i>
               add to cart
             </button>
+
           </div>
           <h3>${product.title}</h3>
           <h5>$${product.price}</h5>

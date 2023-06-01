@@ -1,5 +1,6 @@
 @import "https://fonts.fontstorage.com/import/vremenagrotesk.css"; 
 @import url(./dropdown.css);      
+@import url(./post.css);    
 *{
     box-sizing: border-box;
     margin: 0;

@@ -31,7 +31,7 @@
     </nav>
     <header>
         <a id="varkala" href="">Varkala</a>
-        <ul>
+        <ul class="main-ul">
             <li class="dropdown">
                 <a class="menus" href="#">Home <i class="fa-solid fa-chevron-down" style="color: #000000; padding-right: 5px;"></i></a>
                 <ul class="dropdown-menu-home">
@@ -150,14 +150,18 @@
         </div>
         <div class="icon-right">
             <ul>
-                <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a></li>
-                <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/></a></li>
-                <div class="cart-btn">
-                    <li><a href="#"><img width="27" height="27" src="https://img.icons8.com/dotty/80/shopping-bag.png" alt="shopping-bag"/></a></li>
-                    <div class="cart-items">0</div>
+                <div class="three-icon">
+                    <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a></li>
+                    <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/></a></li>
+                    <div class="cart-btn">
+                        <li><a href="#"><img width="27" height="27" src="https://img.icons8.com/dotty/80/shopping-bag.png" alt="shopping-bag"/></a></li>
+                        <div class="cart-items">0</div>
+                    </div>
                 </div>
-                <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/></a></li>
             </ul>
+        </div>
+        <div class="ham-menu">
+            <li><a href=""><img width="27" height="27" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/></a></li>
         </div>
     </header>
     <div class="slideshow-container" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd()" onmousedown="dragStart(event)" onmousemove="dragMove(event)" onmouseup="dragEnd()">
@@ -169,7 +173,7 @@
                 <p>Design  clocks  <br> on sale </p>
                 <a href=""><button>START SHOPPING</button></a>
             </div>
-          <img  id="basic" src="./assets/images/clock-transparent.png" style="width:35%">
+          <img  id="basic" src="./assets/images/clock-transparent.png">
           <img id="blob" src="./assets/images/blob-1.png" alt="" style="width:50%">
         </div>
         
@@ -180,7 +184,7 @@
                 <p>The bedding was hardly able to cover it and seemed ready to <br><br> slide off any moment. His many legs, pit</p>
                 <a href=""><button>DISCOVER MORE</button></a>
             </div>
-          <img id="basic" src="./assets/images/white-bg-chair.png" style="width:35%">
+          <img id="basic" src="./assets/images/white-bg-chair.png">
           <img id="blob" src="./assets/images/blob-2.png" alt="" style="width:50%">
         </div>
         
@@ -191,13 +195,13 @@
                 <p>The bedding was hardly able to cover it and seemed ready to <br><br> slide off any moment. His many legs, pit</p>
                 <a href=""><button>DISCOVER MORE</button></a>
             </div>
-          <img id="basic" src="./assets/images/all-boxes.png" style="width:35%">
+          <img id="basic" src="./assets/images/all-boxes.png">
           <img id="blob" src="./assets/images/blob-3.png" alt="" style="width:50%">
         </div>
      </div>
         <br>
         
-        <div style="text-align:center">
+        <div class="dot-div" style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span> 
           <span class="dot" onclick="currentSlide(2)"></span> 
           <span class="dot" onclick="currentSlide(3)"></span> 
@@ -353,6 +357,109 @@
          </div>
          <!-- end cart -->
 
+         <div class="summer-sales"> 
+            <div class="blob-gold">
+                <img src="./assets/images/blob-goldish.png" alt="">
+            </div>
+            <div class="sales-content">
+                <h1>Summer Sales</h1>
+                <p>Our biggest sales this year — up to 60% off!</p>
+                <button><span id="sale-spn">S T A R T</span> <span>S H O P P I N G</span></button>
+            </div>
+            <div class="sales-img">
+                <img src="./assets/images/thin-white.png" alt="">
+            </div>
+         </div>
+         <div class="services">
+            <div class="shipping">
+                <div class="service-img">
+                    <img width="32" height="32" src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1"/>
+                </div>
+                <div class="service-info">
+                    <p>Free shipping & return</p>
+                    <p>Free Shipping over $300</p>
+                </div>
+            </div>
+                <div class="money">
+                    <div class="service-img">
+                        <img width="32" height="32" src="https://img.icons8.com/wired/64/coins.png" alt="coins"/>
+                    </div>
+                    <div class="service-info">
+                        <p>Money back guarantee</p>
+                        <p>30 Days Money Back Guarantee</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="service-img">
+                        <img width="32" height="32" src="https://img.icons8.com/ios/50/discount--v1.png" alt="discount--v1"/>
+                    </div>
+                    <div class="service-info">
+                        <p>Best prices</p>
+                        <p>Always the best prices </p>
+                    </div>
+                </div>
+                <div class="support">
+                    <div class="service-img">
+                        <img width="32" height="32" src="https://img.icons8.com/external-others-maxicons/62/external-assistant-emergency-outline-others-maxicons.png" alt="external-assistant-emergency-outline-others-maxicons"/>
+                    </div>
+                    <div class="service-info">
+                        <p>020-800-456-747</p>
+                        <p>24/7 Available Support </p>
+                    </div>
+                </div>
+        </div>
+        <footer>
+            <div class="general">
+                <div class="touch">
+                    <p id="general-p">Be in touch</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br> At itaque temporibus.</p>
+                    <div class="email">
+                        <input type="text" placeholder="Your Email Address">
+                        <img width="32" height="32" src="https://img.icons8.com/ios/50/filled-message.png" alt="filled-message"/>
+                    </div>
+                </div>
+                <div class="choices">
+                    <div class="alllists">
+                        <p id="general-p">Shop</p>
+                        <ul>
+                            <li><a href="">For Women</a></li>
+                            <li><a href="">For Men</a></li>
+                            <li><a href="">Stores</a></li>
+                            <li><a href="">Our Blog</a></li>
+                            <li><a href="">Shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="alllists">
+                        <p id="general-p">Company</p>
+                        <ul>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Register</a></li>
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Our Products</a></li>
+                            <li><a href="">Checkouts</a></li>
+                        </ul>
+                    </div>
+                    <div class="alllists">
+                        <p id="general-p">Your account</p>
+                        <ul>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Register</a></li>
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Our Products</a></li>
+                            <li><a href="">Checkouts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="rights">
+                <p>© 2020 Your company. All rights reserved.</p>
+                <ul>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href=""> Privacy & cookies</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Customer Data Promise</a></li>
+                </ul>
+            </div>
 </body>
 <script src="./assets/scripts/dropdown.js"></script>
 <script src="./assets/scripts/post.js"></script>

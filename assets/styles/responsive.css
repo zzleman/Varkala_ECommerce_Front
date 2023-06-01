@@ -1,0 +1,37 @@
+@import "https://fonts.fontstorage.com/import/vremenagrotesk.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+input:focus {
+    outline:none;
+ }
+ textarea:focus{
+    overflow: hidden;
+    outline:none;
+ }
+body{
+    font-family: 'Vremena Grotesk';
+}
+/* Header Start */
+header{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    display: flex;
+}
+header li{
+    list-style: none;
+}
+.three-icon{
+    display: flex;
+}
+/* Header End */
