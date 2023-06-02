@@ -843,18 +843,12 @@ border-color: black;
     margin-left: -500px;
   }
   .cart {
-    right: 500px;
+    left: 100px;
     width: max-content;
     height: max-content;
   }
   .remove-item{
     margin-left: 135px;
-  }
-  .ham-menu{
-    display: none;
-  }
-  .the-ham{
-    display: flex;
   }
 }
 @media screen and (min-width: 769px) and (max-width:1023px){
@@ -960,6 +954,9 @@ border-color: black;
   }
   .remove-item{
     margin-left: 135px;
+  }
+  .options{
+    margin-left: -200px;
   }
 
 }
