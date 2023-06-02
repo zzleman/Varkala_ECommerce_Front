@@ -17,7 +17,59 @@ body{
     background: transparent;
     min-height: 641px;
 }
+.home-main-drop,.shop-main-drop,.icon-main-drop{
+  display: none;
+}
+ .icon-main-drop{
+  gap: 40px;
+}
+ .area-one{
+  display: flex;
+  flex-direction: column;
+}
+  .area-two{
+  display: flex;
+  flex-direction: column;
+}
 
+.ham-dropdown{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 60px;
+  background-color: white;
+  height: 100vh;
+  width: 30vw;
+  min-width: max-content;
+  z-index: 2;
+  border: 1px solid  #bcac76;
+}
+.ham-dropdown ul{
+  display:flex ;
+  flex-direction: column  ;
+  gap: 30px;
+}
+.samsa{
+  margin-left: -40px;
+}
+#sams-text{
+  padding-top: 30px;
+  font-size: 14px;
+}
+#vark{
+  text-decoration: none;
+  font-size: 24px;
+  padding-bottom: 40px;
+  color: black;
+}
+.ham-dropdown li{
+  list-style: none;
+}
+.ham-dropdown ul li a{
+  text-decoration: none;
+  color: #989898;
+}
 
 /* All About the Nav  */
 nav{
@@ -426,4 +478,113 @@ border-color: black;
       }
 
 
+  }
+  @media screen and (min-width: 769px) and (max-width:1023px){
+    nav{
+      width: 100vw;
+    }
+    .main-ul{
+      display: none;
+    }
+    header input{
+      display: none;
+    }
+    .search-glass{
+      display: none;
+    }
+    header{
+      width: 90vw;
+      justify-content: space-between;
+    }
+    .dot-div{
+      margin-top: 170px;
+    }
+    .slideshow-container{
+      width: 90vw;
+      margin-left: 70px;
+    }
+    #basic{
+      margin-left: 410px;
+    }
+    #blob{
+      margin-left: 420px;
+    }
+    .top-choices{
+      margin-left: -140px;
+    }
+    .up-sized-img{
+      margin-left: 30px;
+    }
+    .sized-book img{
+      height: 240px;
+    }
+    .sized-green img{
+      height: 280px;
+    }
+    .mid-sized-img{
+      margin-left: -130px;
+    }
+    .sized-blue img{
+      height: 280px;
+    }
+    .sized-yellow img{
+      height: 240px;
+    }
+    .down-sized-img{
+      margin-left: 30px;
+    }
+    .sized-rul img{
+      height: 240px;
+    }
+    .sized-red img{
+      height: 280px;
+      width: 280px;
+    }
+    .deal{
+      margin-left: -120px;
+      margin-top: 170px;
+    }
+    .deal-text{
+      padding-top: 170px;
+    }
+    .arrivals{
+      margin-left: -130px;
+    }
+    .filters{
+      margin-left: -130px;
+    }
+    .summer-sales{
+      margin-left: 10px;
+    }
+    .sales-img img{
+      margin-left: -60px;
+    }
+    .services{
+      flex-direction: column;
+      margin-left: 5px;
+      width:100vw;
+      padding-left: 30px;
+    }
+    .touch{
+      margin-left: 10px;
+    }
+    .email input{
+      width: 100vw;
+    }
+    .choices{
+      margin-top: 100px;
+      margin-left: -940px;
+    }
+    .cart {
+      left: 380px;
+      width: max-content;
+      height: 100vh;
+    }
+    .remove-item{
+      margin-left: 135px;
+    }
+    .options{
+      margin-left: -200px;
+    }
+  
   }

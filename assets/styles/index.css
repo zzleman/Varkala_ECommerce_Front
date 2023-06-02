@@ -17,16 +17,31 @@ body{
     font-family: 'Vremena Grotesk';
                                                    
 }
+.home-main-drop,.shop-main-drop,.icon-main-drop{
+  display: none;
+}
+ .icon-main-drop{
+  gap: 40px;
+}
+ .area-one{
+  display: flex;
+  flex-direction: column;
+}
+  .area-two{
+  display: flex;
+  flex-direction: column;
+}
+
 .ham-dropdown{
   display: none;
   position: absolute;
-  margin-top: 10px;
-  padding-top: 30px;
-  margin-left: -360px;
+  top: 0;
+  left: 0;
   padding-left: 60px;
   background-color: white;
   height: 100vh;
   width: 30vw;
+  min-width: max-content;
   z-index: 2;
   border: 1px solid  #bcac76;
 }
