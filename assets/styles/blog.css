@@ -14,19 +14,11 @@ body{
                                                    
 }
 .parallax{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 641px;
-    width: 100vw;
-    max-width: none;
-    transform: translate3d(0, 0, 0);
-    z-index: -1;
-    background-image: url(/assets/images/blog-parallax-girl.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: transparent;
+    min-height: 641px;
 }
+
+
 /* All About the Nav  */
 nav{
     display: flex;
@@ -84,6 +76,19 @@ header li{
     padding: 3px 10px 0 50px;
     color: black;
 }
+.like-items{
+    margin-top: -35px;
+    margin-left: 30px;
+    background-color: #bcac76;
+    color: white;
+    border-radius : 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+  }
 input{
     border: none;
     background-color: transparent;
@@ -104,7 +109,9 @@ border-color: black;
     font-size: 20px;
     color:#989898 ;
 }
-
+.three-icon{
+    display: flex;
+}
 .icon-right{
     margin-left: 120px;
 }
@@ -114,11 +121,13 @@ border-color: black;
 .icon-right img{
     margin-left: 15px;
 }
-
+.ham-menu{
+    margin-left: 20px;
+}
 /* The Text Area On the Image */
 .text-on-parallax{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 .text-on-parallax > h1{
     font-size: 3.5rem;
@@ -286,3 +295,135 @@ border-color: black;
     list-style: none;
     padding-left: 20px;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    nav {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    header input{
+      display: none;
+    }
+    .search-glass{
+      display: none;
+    }
+    .parallax{
+        width: 100vw;
+    }
+    .cart {
+        left: 50px;
+        width: max-content;
+        height: max-content;
+      }
+      .remove-item{
+        margin-left: 135px;
+      }
+  
+    .number,.options,.icons {
+      display: none;
+    }
+  
+    #text {
+      margin-left: -320px;
+      margin-bottom: 10px;
+    }
+    .main-ul{
+      display: none;
+    }
+    #varkala{
+      margin-left: -30px;
+    }
+    header{
+      justify-content: space-between;
+    }
+    .ham-menu{
+      margin-right:30px;
+    }
+    .three-icon{
+      margin-left: -140px;
+    }
+    .services{
+      flex-direction: column;
+      margin-left: 5px;
+      width:100vw;
+      padding-left: 30px;
+    }
+    .touch{
+      margin-left: 10px;
+    }
+    .email input{
+      width: 370px;
+    }
+    .choices{
+      margin-top: 100px;
+      margin-left: -410px;
+      flex-direction: column;
+      gap: -30px;
+    }
+    .cart {
+      right: 500px;
+      width: max-content;
+      height: max-content;
+    }
+    .remove-item{
+      margin-left: 135px;
+    }
+    .text-on-parallax{
+        margin-top: 200px;
+    }
+    .text-on-parallax h1{
+        font-size: 20px;
+    }
+    .text-on-parallax :nth-child(3){
+        font-size: 1rem;
+    }
+      .dropdown-options {
+        display: none;
+      }
+      
+      .dropdown-options.active {
+        display: block;
+      }
+      .post-container{
+        margin-left: 5px;
+      }
+      .posts-time{
+        margin-left: -7px;
+        font-size: 14px;
+      }
+      .rights{
+        margin-left: -40px;
+        white-space: nowrap;
+        flex-direction: column;
+      }
+      .rights ul{
+        margin-left: -10px;
+        flex-direction: column;
+      }
+      .rights p{
+        font-size: 12px;
+      }
+      .rights li{
+        font-size: 12px;
+      }
+      .email input{
+        width: 100vw;
+      }
+      .choices{
+        margin-top: 100px;
+        margin-left: -430px;
+        flex-direction: column;
+        white-space: nowrap;
+      }
+      .general{
+        margin-left: 5px;
+      }
+      .email img{
+        margin-left: -50px;
+      }
+
+
+  }

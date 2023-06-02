@@ -18,19 +18,8 @@ body{
                                                    
 }
 .parallax{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 499.2px;
-    width: 100vw;
-    max-width: none;
-    transform: translate3d(0, 0, 0);
-    z-index: -1;
-    background-image: url(/assets/images/about-flower.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.5;
+    background: transparent;
+    max-height: 441px;
 }
 /* All About the Nav  */
 nav{
@@ -124,7 +113,7 @@ border-color: black;
 
 .text-on-parallax{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 12%;
 }
 .text-on-parallax > h1{
     font-size: 3.5rem;
@@ -309,6 +298,9 @@ border-color: black;
     margin-left: 14%;
     margin-bottom: 10%;
 }
+.ham-menu{
+    margin-left: 20px;
+}
 .email input{
     padding-bottom: 10px;
     width: 390px;
@@ -347,6 +339,19 @@ border-color: black;
     white-space: nowrap;
     font-size: 14px;
 }
+.like-items{
+    margin-top: -35px;
+    margin-left: 30px;
+    background-color: #bcac76;
+    color: white;
+    border-radius : 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+  }
 .rights{
     display: flex;
     color: #868e96;
@@ -413,19 +418,20 @@ border-color: black;
     .services{
       flex-direction: column;
       margin-left: 5px;
-      width:380px;
+      width:100vw;
       padding-left: 30px;
     }
     .touch{
       margin-left: 10px;
     }
     .email input{
-      width: 370px;
+      width: 100vw;
     }
     .choices{
       margin-top: 100px;
-      margin-left: -410px;
+      margin-left: -770px;
       flex-direction: column;
+      white-space: nowrap;
     }
     .cart {
       right: 500px;
@@ -446,6 +452,7 @@ border-color: black;
         margin-top: 220px;
         justify-content: center;
         text-align: center;
+        margin-left: -90px;
     }
     .map-content{
         flex-direction: column;
@@ -523,5 +530,27 @@ border-color: black;
     .message-us textarea{
         width: 100vw;
     }
+      .dropdown-options {
+        display: none;
+      }
+      
+      .dropdown-options.active {
+        display: block;
+      }
+      .rights{
+        white-space: nowrap;
+        flex-direction: column;
+      }
+      .rights ul{
+        margin-left: -10px;
+        flex-direction: column;
+      }
+      .rights p{
+        font-size: 12px;
+      }
+      .rights li{
+        font-size: 12px;
+      }
+
 
   }
